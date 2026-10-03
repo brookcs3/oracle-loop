@@ -2,7 +2,6 @@
 
 A Claude Code plugin for long projects that must not forget: a compounding project memory, a reread protocol that runs after every context compaction, a lessons ledger with a pre-push sweep, and hooks that make the loop happen without being asked.
 
-It is the system built and run on Project Insight (eight Terminal-Bench-style audio tasks, three paid at Ready-to-Deliver, several survived compactions mid-pipeline) and earlier on Project Seal and Project Parchment, generalised so a new project gets it with one install instead of copying it out of an old repo.
 
 ## The loop
 
