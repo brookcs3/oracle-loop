@@ -1,0 +1,13 @@
+{
+  "name": "oracle-loop",
+  "description": "Cameron Brooks's Oracle Loop plugin: compounding project memory plus the post-compact reread protocol.",
+  "owner": { "name": "Cameron Brooks" },
+  "plugins": [
+    {
+      "name": "oracle-loop",
+      "source": "./",
+      "description": "Compounding project memory (.oracle/), /reread-corpus after every compact, a lessons ledger with a pre-push sweep, and hooks that enforce the loop.",
+      "version": "1.0.0"
+    }
+  ]
+}

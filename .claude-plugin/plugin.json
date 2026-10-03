@@ -1,0 +1,12 @@
+{
+  "name": "oracle-loop",
+  "displayName": "Oracle Loop",
+  "description": "A project memory that learns: a compounding knowledge store (.oracle/), a post-compact reread protocol that restores live state and turns the ledger into a carry-forward, a lessons ledger with a pre-push sweep, and hooks that make the loop happen without being asked.",
+  "version": "1.0.0",
+  "author": { "name": "Cameron Brooks" },
+  "repository": "https://github.com/brookcs3/oracle-loop",
+  "keywords": ["memory", "compaction", "reread", "knowledge-base", "lessons", "workflow"],
+  "commands": ["./commands/"],
+  "skills": ["./skills/"],
+  "hooks": "./hooks/hooks.json"
+}

@@ -1,0 +1,19 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "compact",
+        "hooks": [ { "type": "command", "command": "python3 \"${CLAUDE_PLUGIN_ROOT}/hooks/oracle_hooks.py\" after-compact" } ]
+      },
+      {
+        "matcher": "startup|resume",
+        "hooks": [ { "type": "command", "command": "python3 \"${CLAUDE_PLUGIN_ROOT}/hooks/oracle_hooks.py\" session-start" } ]
+      }
+    ],
+    "PreCompact": [
+      {
+        "hooks": [ { "type": "command", "command": "python3 \"${CLAUDE_PLUGIN_ROOT}/hooks/oracle_hooks.py\" pre-compact" } ]
+      }
+    ]
+  }
+}
